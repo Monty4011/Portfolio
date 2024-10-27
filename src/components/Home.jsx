@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import pdf from "/Exam.pdf";
+import pdf from "/resume.pdf";
 import Typed from "typed.js";
 import { useRef } from "react";
 
@@ -10,7 +10,7 @@ const Home = () => {
       strings: [
         "Welcome to my profile",
         "My Name is Jatin Gupta",
-        "Full Stack React Developer"
+        "Full Stack React Developer",
       ],
       typeSpeed: 50,
       backSpeed: 50,
