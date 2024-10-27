@@ -1,0 +1,35 @@
+[
+  {
+    "key": 1,
+    "title": "Piczoid",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "description": "Piczoid is a full-stack Instagram clone built with React, designed for users to create, share, and interact with visual content in a social media environment. It features core functionalities like user authentication, real-time posts and comments, and a sleek UI for viewing, liking, and commenting on photos. The project combines frontend and backend technologies to deliver a seamless and engaging user experience similar to Instagram.",
+    "demo": "https://github.com/Monty4011/Piczoid",
+    "source": "https://github.com/Monty4011/Piczoid"
+  },
+  {
+    "key": 2,
+    "title": "Job Dekho",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "description": "Job Dekho is a full-stack job portal website built with React, aimed at connecting job seekers with potential employers. The platform offers features such as job listings, application tracking, user profiles, and search filters to streamline the job search process. With a responsive design and user-friendly interface, Job Dekho provides a seamless experience for users looking to find or post job opportunities.",
+    "demo": "https://github.com/Monty4011/Job-Portal",
+    "source": "https://github.com/Monty4011/Job-Portal"
+  },
+  {
+    "key": 3,
+    "title": "Dice Game",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "description": "This dice game project is a full-stack application built with React, featuring interactive gameplay where users roll dice and track their scores. The game includes engaging animations, scorekeeping making it fun and easy to play. Designed with an intuitive interface and real-time updates, it offers an enjoyable gaming experience for players.",
+    "demo": "https://github.com/Monty4011/Dice-Game",
+    "source": "https://github.com/Monty4011/Dice-Game"
+  },
+  {
+    "key": 4,
+    "title": "PassOP",
+    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "description": "This password manager project is a full-stack React application designed to securely store, organize, and retrieve user passwords. It includes robust features such as encryption, secure authentication, and an intuitive UI for managing login credentials. The app allows users to safely store passwords and retrieve them with ease, enhancing security and user convenience.",
+    "demo": "https://github.com/Monty4011/Password-Manager",
+    "source": "https://github.com/Monty4011/Password-Manager"
+  }
+]
+
