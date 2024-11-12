@@ -8,7 +8,6 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to my profile",
         "My Name is Jatin Gupta",
         "Full Stack React Developer",
       ],
@@ -26,17 +25,15 @@ const Home = () => {
 
   return (
     <>
-      <div className=" flex justify-between items-center h-[80vh]" id="home">
-        <div
-          className="left w-[600px] border-2 rounded-xl flex flex-col gap-5 border-yellow-300  p-7 text-center shadow-[5px_5px_10px_10px_rgba(101,175,10,0.5)] bg-[#404797]"
-          data-aos="fade-up-right"
-          data-aos-duration="1000"
-        >
-          <h1 ref={typedRef} className="text-3xl font-bold"></h1>
+      <div
+        className=" flex justify-between sm:justify-evenly gap-5 sm:gap-0 items-center"
+      >
+        <div className="left sm:w-[600px] border-2 rounded-xl flex flex-col justify-center border-yellow-300 h-52 px-5 py-3 sm:p-7 text-center shadow-[1px_1px_10px_1px_rgba(101,175,10,0.5)] bg-[#404797]">
+          <h1 ref={typedRef} className="text-xl sm:text-3xl font-bold h-[50%]"></h1>
           <a href={pdf} download="resume.pdf">
             <button
               type="button"
-              class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 "
+              class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-black dark:hover:bg-yellow-200 "
             >
               Download Resume
             </button>
@@ -44,15 +41,10 @@ const Home = () => {
         </div>
 
         <div className="right  ">
-          <div
-            className=" flex justify-center items-center  "
-            data-aos="fade-up-left"
-            data-aos-duration="1000"
-          >
+          <div className=" flex justify-center items-center  ">
             <img
-              className="image w-60 border-4 border-yellow-300 rounded-full  "
+              className="w-96 sm:w-60 border-2 border-yellow-300 rounded-full shadow-[1px_1px_10px_1px_rgba(101,175,10,0.5)] "
               src="./hero/image2.JPG"
-              alt=""
             />
           </div>
         </div>

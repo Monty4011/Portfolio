@@ -23,16 +23,6 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
-
-      <div>
-        <a href="#navbar">
-          <img
-            className="rounded-full w-10 fixed bottom-12 right-12 "
-            src="up-arrow.png"
-            alt=""
-          />
-        </a>
-      </div>
     </>
   );
 };
